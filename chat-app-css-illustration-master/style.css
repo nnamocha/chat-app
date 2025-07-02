@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+.design{
+    width:15%;
+    height: 500px;
+    color:hsl(293, 100%, 63%) ;
+    background-image: linear-gradient(to top,hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    position: absolute;
+    top: 0px;
+    border-radius: 0 0 100px 100px;
+
+}
+.phone{
+    border: 10px solid white;
+    border-radius: 20px;
+    width: 20%;
+    background-color:  hsl(270, 20%, 90%);
+    font-size: 10px;
+    box-shadow: 2px 2px 50px grey;
+    position: relative;
+}
+.island{
+    width: 65%;
+    height: 20px;
+    background-color: white;
+    margin: auto;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+
+}
+nav{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    background-image:linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%) ) ;
+    border-radius: 10px 10px 2px 2px;
+    color: #fff;
+    margin-top: -20px;
+}
+nav img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1.5px solid;
+}
+.left{
+    background-color: hsl(270, 17%, 80%);
+    margin: 2px 0;
+    width: 60%;
+    border-radius:10px 10px 10px 0 ;
+    padding: 5px;
+    margin-left: 10px;
+    color: hsl(276, 55%, 52%) ;
+}
+.images{
+     display: flex;
+     justify-content: right;
+}
+.images img{
+    width:  40px;
+    padding: 0 5px;
+    border-radius: 10px;
+   
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    position: relative;
+    left: 85px;
+}
+.right{
+    background-color: #fff;
+    padding: 7px;
+    margin: 5px;
+    display: flex;
+    border-radius: 10px 10px 0 10px; 
+   
+    
+}
+.one{
+    width: 60%;
+    text-align: left;
+
+}
+.two{
+    width: 40%;
+    margin-left: 50px;
+    /* position: relative;
+    left: 50px; */
+}
+.rate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to left, hsl(264, 100%, 61%), hsl(293, 100%, 63%) );
+    margin: 5px;
+    height: 35px;
+    width: 70%;
+    border-radius: 10px 10px 10px 0;
+    padding: 5px;
+    color: #fff;
+}
+.price{
+    font-size: 15px;
+}
+#te{
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+    padding: 20px;
+    border: 2px solid white;
+    
+
+}
+.simple{
+    width: 420px;
+    height: 200px;
+    margin: 100px 100px 0 0;
+}
+.simple h1{
+    padding-bottom: 20px;
+}
+.simple p{
+    color:hsl(270, 7%, 64%) ;
+}

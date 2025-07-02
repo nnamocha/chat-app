@@ -1,0 +1,24 @@
+@media screen and (max-width:768px){
+    .main{
+      display: flex;
+      flex-direction: column;
+    }
+    .phone{
+        width: 35%;
+        margin: auto;
+        /* height: 100%; */
+    }
+    .simple{
+        width: 35%;
+        text-align: center;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .design{
+        position: absolute;
+        top: 0;
+        right: 400px;
+        width: 45%;
+        border-radius: 0 0 500px 0;
+    }
+}
