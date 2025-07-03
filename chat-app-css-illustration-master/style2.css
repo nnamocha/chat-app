@@ -4,15 +4,16 @@
       flex-direction: column;
     }
     .phone{
-        width: 60%;
+        width: 70%;
         margin: auto;
         /* height: 100%; */
     }
     .simple{
-        width: 60%;
+        width: 70%;
         text-align: center;
         margin: auto;
         margin-top: 100px;
+        
     }
     .design{
         position: absolute;
@@ -20,5 +21,14 @@
         right: 300px;
         width: 45%;
         border-radius: 0 0 500px 0;
+    }
+    .light{
+        width: 60%;
+        position: relative;
+        bottom: 350px;
+        left: 200px;
+        height: 500px;
+        z-index: 0;
+        margin-bottom: -400px;
     }
 }

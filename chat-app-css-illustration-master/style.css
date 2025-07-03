@@ -27,6 +27,8 @@
     font-size: 10px;
     box-shadow: 2px 2px 50px grey;
     position: relative;
+    margin-left: 100px;
+    z-index: 2;
 }
 .island{
     width: 65%;
@@ -127,10 +129,23 @@ nav img{
     width: 420px;
     height: 200px;
     margin: 100px 100px 0 0;
+    z-index: 3;
+    margin-left: 100px;
 }
 .simple h1{
     padding-bottom: 20px;
 }
 .simple p{
     color:hsl(270, 7%, 64%) ;
+}
+.light{
+    background-color:hsl(270, 91%, 98%) ;
+    z-index: 0;
+    width: 20%;
+    color: hsl(270, 21%, 96%);
+    border-radius: 200px 0px 0 0;
+    position: relative;
+    
+
+    
 }
